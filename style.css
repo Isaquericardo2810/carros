@@ -30,6 +30,7 @@ p {
    font-size: 0.9375rem;
    color: var(--transparent-white);
    margin-bottom: 1.875rem;
+   line-height: 1.5625rem;
 }
 
 a {
@@ -71,4 +72,30 @@ section {
 }
 .luxuosos a {
     color: var(--dark-cyan);
+}
+
+
+@media(min-width: 920px) {
+    body {
+        border: 1px solid red;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+    }
+    
+    main {
+        display: flex;
+        max-width: 57.7rem;
+    }
+
+    p {
+        margin-bottom:5.25rem ;
+    }
+
+    a:hover {
+        background: transparent;
+        color: var(--gray);
+    }
 }
